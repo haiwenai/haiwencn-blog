@@ -19,6 +19,7 @@ paginate = 10
   ShowShareButtons = false
   ShowToc = true
   TocOpen = false
+  ShowRelatedContent = false
 
   [params.homeInfoParams]
     Title = "海文AI手记"

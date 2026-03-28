@@ -26,10 +26,6 @@ paginate = 10
     Content = "记录 AI 实践中的思考与判断。关注 AI Agent、投资、个人基础设施。"
 
   [[params.socialIcons]]
-    name = "x"
-    url = ""
-
-  [[params.socialIcons]]
     name = "rss"
     url = "index.xml"
 

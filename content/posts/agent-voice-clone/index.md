@@ -24,10 +24,10 @@ description: "一个开车时的念头，到一条 PDF→有声书的完整管�
 
 我的 Mac mini 上跑着 [OpenClaw](https://github.com/openclaw/openclaw)——一个开源的 AI Agent 框架，24小时在线，通过飞书对话。它有一套 skill（技能）机制，社区在 [ClawHub](https://clawhub.com) 上共享各种 skill，我先去找了一圈现成方案。
 
-**找到两个相关的：**
+**找了一圈，评估了这些方案：**
 
-- **audiobook-generator**：依赖 SenseAudio 的 API key，需要单独申请。
-- **audiobooklm**：它的 `synthesize_tts` 函数有 **200 字的硬限制**——一本33万字的书，按200字一段切？那不是有声书，是碎片轰炸。
+- **audiobook-generator**（ClawHub skill）：依赖 SenseAudio 的 API key，需要单独申请。
+- **audiobooklm**（ClawHub skill）：它的 `synthesize_tts` 函数有 **200 字的硬限制**——一本33万字的书，按200字一段切？那不是有声书，是碎片轰炸。
 - **OpenAI TTS**：音质好，情绪表达强，但按字符计费，33万字中文跑下来成本不低，而且没有声音克隆能力——只能从 OpenAI 提供的几个固定音色里选。
 - **ElevenLabs**：支持声音克隆，效果一流，但定价按字符数阶梯收费，长篇幅成本高。更重要的是它对中文的支持一般，英文场景更合适。
 - **Edge TTS**：微软免费，中文音色多，速度快——但没有声音克隆。适合做快速路径，不适合做最终品质版。
@@ -171,6 +171,8 @@ ffmpeg -f concat -safe 0 -i filelist.txt -c copy output.mp3
 Obsidian 移动端完整支持音频播放，点开一章就能边听边看。所有内容在本地，没有平台锁定，没有会员到期。
 
 ![Obsidian 中边听边看的效果](obsidian-preview.png)
+
+![手机上直接同步、直接听](obsidian-mobile.png)
 
 ## 八、实际运行数据
 

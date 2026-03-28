@@ -2,6 +2,7 @@ baseURL = "https://blog.haiwencn.com/"
 languageCode = "zh"
 defaultContentLanguage = "zh"
 title = "海文AI手记"
+hasCJKLanguage = true
 theme = "PaperMod"
 paginate = 10
 

@@ -166,7 +166,9 @@ ffmpeg -f concat -safe 0 -i filelist.txt -c copy output.mp3
 
 每个 `.md` 文件里，顶部嵌入音频播放器（Obsidian 支持 `![[file.mp3]]` 语法），下面是完整原文。点开一章，上面播放，下面看文字，**边听边看**。
 
-Obsidian 移动端同样支持，手机上打开就能用。所有内容在本地，没有平台锁定，没有会员到期。
+因为我的 Obsidian vault 放在 iCloud 上，Mac mini 生成的文件会自动同步到所有设备。也就是说，电脑上跑完命令，手机上打开 Obsidian 就能直接听——138 个章节的音频和原文已经在那了，不需要手动拷贝、不需要传文件。一句命令跑完，手机直接出结果。
+
+Obsidian 移动端完整支持音频播放，点开一章就能边听边看。所有内容在本地，没有平台锁定，没有会员到期。
 
 ![Obsidian 中边听边看的效果](obsidian-preview.png)
 

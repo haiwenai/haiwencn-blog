@@ -1,6 +1,6 @@
 ---
 title: "一条命令，把互联网上的任何内容变成 Markdown"
-date: 2026-04-22T10:00:00+08:00
+date: 2026-04-21T10:00:00+08:00
 draft: false
 tags: ["AI", "Agent", "Markdown", "Whisper", "工具"]
 description: "微信公众号、YouTube、B站、抖音、小红书、网页、PDF——全部一条命令转成带图片的 Markdown。从被各平台封锁搞得想砸键盘，到彻底解决的全过程。"
